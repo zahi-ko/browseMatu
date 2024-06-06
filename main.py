@@ -60,8 +60,8 @@ try:
         "passwd": driver.find_element(By.XPATH, '//*[@id="dologin_user_Password"]')
     }
 
-    inputBox['name'].send_keys("Zahi")
-    inputBox['passwd'].send_keys("Trapshitv22")
+    inputBox['name'].send_keys("Your name")
+    inputBox['passwd'].send_keys("Your password")
 
     submitIcon = driver.find_element(By.XPATH, '//*[@id="dologin"]/table/tbody/tr[2]/td/table/tbody/tr[5]/td/table/tbody/tr/td[2]/input')
     submitIcon.click()
