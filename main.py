@@ -1,7 +1,5 @@
 import os
 import shutil
-import requests
-from requests.cookies import create_cookie
 
 from selenium import webdriver
 from selenium.webdriver.common.by import By
@@ -250,7 +248,6 @@ def initialize():
 
     edgeService = Service(DRIVER_PATH)
     driver = webdriver.Edge(service=edgeService, options=edgeOptions)
-
 
 def main():
     """
